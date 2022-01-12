@@ -1,7 +1,5 @@
 // challenges from The Complete JavaScript Course 2022: From Zero to Expert!
 
-//coding challenge 1
-
 /*
 let markWeight = 78;
 let markHeight = 1.69;
@@ -30,6 +28,7 @@ if (markHigherBMI) {
 
 //coding challenge 3
 
+/*
 const averageScoreDolphins = (97 + 112 + 101) / 3;
 const averageScoreKoalas = (109 + 95 + 106) / 3;
 
@@ -51,3 +50,27 @@ if (averageScoreDolphins > averageScoreKoalas && averageScoreDolphins >= 100) {
 } else {
   console.log("No winner!");
 }
+*/
+
+//coding challenge 4 - tip calculator
+
+/*
+let billValue = 30
+
+if (billValue >= 50 && billValue <= 300) {
+  tip = 15%
+} else {
+  tip = 20%
+}
+*/
+
+const billValue = 40;
+
+const tip = billValue >= 50 ? billValue * 0.15 : billValue * 0.2;
+// console.log(tip);
+
+console.log(
+  `The bill was ${billValue}, the tip was ${tip}, and the total value is ${
+    billValue + tip
+  }`
+);
