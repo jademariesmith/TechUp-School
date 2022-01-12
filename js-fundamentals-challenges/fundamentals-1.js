@@ -66,7 +66,7 @@ if (billValue >= 50 && billValue <= 300) {
 
 const billValue = 40;
 
-const tip = billValue >= 50 ? billValue * 0.15 : billValue * 0.2;
+const tip = billValue >= 50 && billValue <= 300 ? billValue * 0.15 : billValue * 0.2;
 // console.log(tip);
 
 console.log(
