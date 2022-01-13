@@ -57,7 +57,8 @@ if (averageScoreDolphins > averageScoreKoalas && averageScoreDolphins >= 100) {
 
 const billValue = 40;
 
-const tip = billValue >= 50 && billValue <= 300 ? billValue * 0.15 : billValue * 0.2;
+const isBillInRange = billValue >= 50 && billValue <= 300
+const tip = isBillInRange  ? billValue * 0.15 : billValue * 0.2;
 // console.log(tip);
 
 console.log(
