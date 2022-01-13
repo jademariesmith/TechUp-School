@@ -54,15 +54,6 @@ if (averageScoreDolphins > averageScoreKoalas && averageScoreDolphins >= 100) {
 
 //coding challenge 4 - tip calculator
 
-/*
-let billValue = 30
-
-if (billValue >= 50 && billValue <= 300) {
-  tip = 15%
-} else {
-  tip = 20%
-}
-*/
 
 const billValue = 40;
 
